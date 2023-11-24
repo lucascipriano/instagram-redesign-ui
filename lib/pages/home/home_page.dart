@@ -10,14 +10,19 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       backgroundColor: Color.fromARGB(255, 243, 240, 240),
-      body: SafeArea(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.end,
-          children: [
-            HeaderHome(),
-            FeaturesHome(),
-            HomePost(),
-          ],
+      body: SingleChildScrollView(
+        child: SafeArea(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: [
+              HeaderHome(),
+              FeaturesHome(),
+              HomePost(),
+              HomePost(),
+              HomePost(),
+              HomePost(),
+            ],
+          ),
         ),
       ),
     );

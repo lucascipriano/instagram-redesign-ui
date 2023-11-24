@@ -67,6 +67,8 @@ flutter:
     - assets/verified.svg
     - assets/More.svg
     - assets/Comment.svg
+    - assets/Share.svg
+    - assets/Save.svg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
